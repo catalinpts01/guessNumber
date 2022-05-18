@@ -1,0 +1,176 @@
+/* primary color: #F32424 */
+/* secondary color:#F2F2F2 */
+
+/* start reset */
+html {
+  font-size: 15px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.img-responsive {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+a:hover,
+a:active {
+  text-decoration: none;
+  color: #fff;
+}
+input,
+input:focus,
+textarea,
+textarea:focus,
+select,
+select:focus {
+  box-shadow: unset;
+  outline: unset;
+}
+
+ul,
+ol {
+  list-style-type: none;
+  margin-bottom: 0;
+}
+p {
+  font-size: 1.8rem;
+}
+/* end reset */
+body {
+  background-color: #f32424;
+  color: #f2f2f2;
+  /* background-color: #222; */
+}
+p {
+  font-size: 4.4rem;
+}
+.title {
+  text-align: center;
+  height: 200px;
+}
+.title > h1 {
+  font-size: 6.4rem;
+  letter-spacing: 1px;
+  margin-top: 50px;
+  margin-left: -1.2rem;
+}
+.title > p {
+  font-size: 2.4rem;
+  font-weight: bold;
+  text-align: center;
+  margin-left: -5rem;
+}
+.container {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+.main-c {
+  margin-top: 7rem;
+  width: 625px;
+  text-align: left;
+}
+.main-c > p {
+  margin-top: 2rem;
+}
+.guess {
+  padding: 1rem;
+  border-radius: 7px;
+  border: none;
+  margin-top: 2rem;
+  width: 265px;
+  font-size: 2rem;
+}
+.guess:hover {
+  background-color: #6a67ce;
+  color: #f2f2f2;
+}
+.btn {
+  padding: 1rem;
+  border-radius: 7px;
+  border: none;
+  cursor: pointer;
+  margin-left: 1.5rem;
+  font-size: 2rem;
+}
+.btn:hover {
+  background-color: #6a67ce;
+}
+.fa-hundred-points {
+  color: #fafafa;
+}
+.fa-star,
+.fa-trophy {
+  color: #6a67ce;
+  padding-right: 10px;
+}
+
+.again {
+  position: absolute;
+  left: 44%;
+  transform: translate(-50%, 50%);
+  width: 400px;
+}
+.number {
+  position: absolute;
+  top: 30%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+  font-size: 2.4rem;
+  background: #f2f2f2;
+  padding: 2rem 2.5rem;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+  width: 30%;
+  height: 20%;
+  background-color: white;
+  padding: 3rem;
+  border-radius: 5px;
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+  z-index: 10;
+  color: black;
+}
+.modal > p {
+  font-size: 2rem;
+  text-align: center;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(3px);
+  z-index: 5;
+}
+.close-modal {
+  position: absolute;
+  top: 1.2rem;
+  right: 2rem;
+  font-size: 2.5rem;
+  color: black;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
